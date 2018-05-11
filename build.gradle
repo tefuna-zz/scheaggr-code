@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+group = 'com.tefuna.scheaggr'
+version = '1.0.0'
+description = 'scheaggr-code'
+
+dependencies {
+    compile project(':tn-common')
+}
